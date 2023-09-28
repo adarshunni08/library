@@ -18,10 +18,21 @@ function display(myLibrary){
     }
 }
 
-const book1 = new book("nvr giv up","Adarsh",216,"yes")
-const book2 = new book("barbie girl","Ayana", 256, "no")
+const addBookButton = document.querySelector('.addBook-button')
+addBookButton.addEventListener('click', () => {
+    const form = document.getElementById('form')
 
-addBookToLibrary(book1)
-addBookToLibrary(book2)
+    if (form.style.display === 'none'){
+        form.style.visibility = 'visible'
+    }
+    else{
+        form.style.visibility = 'hidden'
+    }
 
-console.log(display(myLibrary))
+})
+
+
+
+
+
+
