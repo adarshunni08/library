@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 365px;
+}
+
+.header{
+    display: flex;
+    padding: 32px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1000px;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.header button{
+    border: none;
+    background-color: beige;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: sans-serif;
+    border-radius: 12px;
+    width: 102px;
+    height: 48px;
+}
+
+.main-content button{
+    border: none;
+    background-color: beige;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: sans-serif;
+    border-radius: 24px;
+    width: 170px;
+    height: 48px;
+}
+
+.footer{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
