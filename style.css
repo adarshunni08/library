@@ -44,13 +44,7 @@ body{
     font-family: sans-serif;
 }
 
-.details{
-    background-color: beige;
-    display: flex;
-    flex-direction: column;
-    padding: 16px;
-    border-radius: 16px;
-}
+
 
 input[type=text], input[type=number] {
     width: 100%;
@@ -62,7 +56,7 @@ input[type=text], input[type=number] {
 .main-content{
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 100px;
     justify-content: center;
     align-items: center;
 }
@@ -76,6 +70,10 @@ input[type=text], input[type=number] {
 .form-details button{
     background-color: lightgreen;
 }
+
+::backdrop {
+    opacity: 0.75;
+  }
 
 
 
