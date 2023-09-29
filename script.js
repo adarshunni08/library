@@ -18,17 +18,12 @@ function display(myLibrary){
     }
 }
 
-const addBookButton = document.querySelector('.addBook-button')
-addBookButton.addEventListener('click', () => {
-    const form = document.getElementById('form')
+const form = document.querySelector('.details')
+form.style.display = 'none'
 
-    if (form.style.display === 'none'){
-        form.style.visibility = 'visible'
-    }
-    else{
-        form.style.visibility = 'hidden'
-    }
-
+const addBook = document.querySelector('.addBook-button')
+addBook.addEventListener('click', () => {
+    form.style.display = 'block'
 })
 
 
