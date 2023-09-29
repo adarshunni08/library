@@ -14,19 +14,19 @@
     </div>
     <div class="main-content">
         <button class="addBook-button">+ Add book</button>
-        <div class="details">
+        <dialog>
             <form action="" id="form" class="form-details">
                 <h3>Add new book</h3>
-                <div><input type="text" class="input" id="title" placeholder="Title" required maxlength="100"></div>
-                <div><input type="text" class="input" id="author" placeholder="Author" required maxlength="100"></div>
-                <div><input type="number" class="input" id="pages" placeholder="No. of pages" required max="10000"></div>
+                <div class="title"><input type="text" class="input" id="title" placeholder="Title" required maxlength="100"></div>
+                <div class="author"><input type="text" class="input" id="author" placeholder="Author" required maxlength="100"></div>
+                <div class="pages"><input type="number" class="input" id="pages" placeholder="No. of pages" required max="10000"></div>
                 <div class="is-read">
                     <label for="is-read">Have you read it?</label>
                     <input type="checkbox" id="is-read" class="input">
                 </div>
                 <button class="submit" type="submit">Submit</button>
             </form>
-        </div>
+        </dialog>
     </div>
 </body>
 </html>
